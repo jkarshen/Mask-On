@@ -604,15 +604,7 @@
                     <view key="view" contentMode="scaleToFill" id="JsD-87-jU5">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="774"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-<<<<<<< HEAD
-                        <viewLayoutGuide key="safeArea" id="Auu-gc-37X"/>
-=======
-<<<<<<< HEAD
-                        <viewLayoutGuide key="safeArea" id="J98-U1-Du5"/>
-=======
-                        <viewLayoutGuide key="safeArea" id="PL4-tx-9QE"/>
->>>>>>> ee22b42902ce22a1af0a0af50a9b1b2bd641f1dc
->>>>>>> c09a76c975e31f6b36f783bf7f6462590537eaed
+                        <viewLayoutGuide key="safeArea" id="w0u-Vy-mCl"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                 </viewController>
@@ -625,48 +617,22 @@
         <segue reference="TZn-9i-Axa"/>
     </inferredMetricsTieBreakers>
     <resources>
-<<<<<<< HEAD
         <image name="85396084-please-wash-your-hands-vector-illustration-icon-health-care.jpg" width="312" height="312"/>
         <image name="Image" width="1040" height="615"/>
         <image name="Image-1" width="700" height="400"/>
         <image name="Image-2" width="952" height="637"/>
+        <image name="Image-3" width="2048" height="1365"/>
+        <image name="Image-4" width="700" height="450"/>
         <image name="download-1.png" width="200" height="200"/>
         <image name="download-2.png" width="225" height="225"/>
         <image name="download.png" width="225" height="225"/>
+        <image name="lightbulb.fill" catalog="system" width="113" height="128"/>
+        <image name="mappin.and.ellipse" catalog="system" width="118" height="128"/>
+        <image name="person.fill.questionmark" catalog="system" width="128" height="104"/>
         <image name="pngtree-face-mask-vector-icon-illustration-png-image_2164981.jpg" width="640" height="640"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
-<<<<<<< HEAD
-=======
-=======
-=======
-        <image name="85396084-please-wash-your-hands-vector-illustration-icon-health-care.jpg" width="128" height="128"/>
->>>>>>> 35e98fd86b861f91dddaf15cc671b412d247e1ba
-        <image name="Image" width="1040" height="615"/>
-        <image name="Image-1" width="700" height="400"/>
-<<<<<<< HEAD
-        <image name="lightbulb.fill" catalog="system" width="113" height="128"/>
-        <image name="mappin.and.ellipse" catalog="system" width="118" height="128"/>
-        <image name="person.fill.questionmark" catalog="system" width="128" height="104"/>
-=======
-        <image name="Image-2" width="952" height="637"/>
-        <image name="Image-3" width="2048" height="1365"/>
-        <image name="Image-4" width="700" height="450"/>
-<<<<<<< HEAD
-        <image name="download-1.png" width="128" height="128"/>
-        <image name="download-2.png" width="128" height="128"/>
-        <image name="download.png" width="128" height="128"/>
-        <image name="pngtree-face-mask-vector-icon-illustration-png-image_2164981.jpg" width="128" height="128"/>
-        <systemColor name="labelColor">
-            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-=======
-=======
->>>>>>> f0b61832b70f23e21513fb37ceeda3e52780ac3b
->>>>>>> faef5ee192aa94dc373e1d1ca0b7e5e95a35338c
->>>>>>> ee22b42902ce22a1af0a0af50a9b1b2bd641f1dc
->>>>>>> c09a76c975e31f6b36f783bf7f6462590537eaed
         <systemColor name="opaqueSeparatorColor">
             <color red="0.77647058823529413" green="0.77647058823529413" blue="0.78431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
