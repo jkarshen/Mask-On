@@ -605,7 +605,11 @@
                     <view key="view" contentMode="scaleToFill" id="JsD-87-jU5">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="774"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+<<<<<<< HEAD
                         <viewLayoutGuide key="safeArea" id="fyj-T7-AXm"/>
+=======
+                        <viewLayoutGuide key="safeArea" id="Uec-sy-JCC"/>
+>>>>>>> bdd4a65b2ba743e28ee92ae9974ee2a68cc18375
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                 </viewController>
@@ -615,10 +619,14 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="TZn-9i-Axa"/>
+        <segue reference="Y4B-Fi-lPJ"/>
     </inferredMetricsTieBreakers>
     <resources>
+<<<<<<< HEAD
         <image name="85396084-please-wash-your-hands-vector-illustration-icon-health-care" width="1300" height="1300"/>
+=======
+        <image name="85396084-please-wash-your-hands-vector-illustration-icon-health-care.jpg" width="128" height="128"/>
+>>>>>>> bdd4a65b2ba743e28ee92ae9974ee2a68cc18375
         <image name="Image" width="1040" height="615"/>
         <image name="Image-1" width="700" height="400"/>
         <image name="Image-2" width="952" height="637"/>
