@@ -11,6 +11,8 @@ import UIKit
 class HomeController: UIViewController {
     // MARK: Properties
     
+    var delegate: HomeControllerDelegate?
+    
     // MARK: -Init
     
     override func viewDidLoad() {
@@ -23,7 +25,7 @@ class HomeController: UIViewController {
     // MARK: - Handlers
     
     @objc func handleMenuToggle() {
-       print("Toggle Menu...")
+        delegate?.handleMenuToggle()
     }
     
     func configureNavigationBar() {

@@ -8,8 +8,12 @@
 
 import UIKit
 
-class ContainterController: UIViewController {
+class ContainerController: UIViewController{
     // MARK: Properties
+    
+    var menuController: UIViewController!
+    var centerController: UIViewController!
+    var isExpanded = false
     
     // MARK: -Init
     
@@ -25,14 +29,49 @@ class ContainterController: UIViewController {
     
     func configureHomeController() {
         let homeController = HomeController()
-        let controller = UINavigationController(rootViewController: homeController)
+        homeController.delegate = self
+        centerController = UINavigationController(rootViewController: homeController)
         
-        view.addSubview(controller.view)
-        addChild(controller)
-        controller.didMove(toParent: self)
+        view.addSubview(centerController.view)
+        addChild(centerController)
+        centerController.didMove(toParent: self)
     }
     
     func configureMenuController() {
+        if menuController == nil {
+            // add menu controller
+            menuController = MenuController()
+            view.insertSubview(menuController.view, at: 0)
+            addChild(menuController)
+            menuController.didMove(toParent: self)
+            print("Did add menu controller")
+        }
+    }
+    
+    func showMenuController(shouldExpand: Bool) {
+        if shouldExpand {
+            //show menu
+            UIView.animate(withDuration: 0.3, delay: 0, usingSpringWithDamping: 0.8, initialSpringVelocity: 0, options: .curveEaseInOut, animations: {
+                self.centerController.view.frame.origin.x = self.centerController.view.frame.width - 80
+            }, completion: nil)
+            
+        } else {
+            //hide menu
+            UIView.animate(withDuration: 0.3, delay: 0, usingSpringWithDamping: 0.8, initialSpringVelocity: 0, options: .curveEaseInOut, animations: {
+                self.centerController.view.frame.origin.x = 0
+            }, completion: nil)
+            
+        }
+    }
+}
+
+extension ContainerController: HomeControllerDelegate {
+    func handleMenuToggle() {
+        if !isExpanded {
+            configureMenuController()
+        }
         
+        isExpanded = !isExpanded
+        showMenuController(shouldExpand: isExpanded)
     }
 }

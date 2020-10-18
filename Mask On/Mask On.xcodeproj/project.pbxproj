@@ -15,6 +15,7 @@
 		99E82085253BA4CE0018C007 /* ContainerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E82084253BA4CE0018C007 /* ContainerController.swift */; };
 		99E82088253BA4DF0018C007 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E82087253BA4DF0018C007 /* HomeController.swift */; };
 		99E8208B253BA4F10018C007 /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E8208A253BA4F10018C007 /* MenuController.swift */; };
+		99E8208F253BCB250018C007 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E8208E253BCB250018C007 /* Protocols.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		99E82084253BA4CE0018C007 /* ContainerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerController.swift; sourceTree = "<group>"; };
 		99E82087253BA4DF0018C007 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 		99E8208A253BA4F10018C007 /* MenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
+		99E8208E253BCB250018C007 /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		99E82083253BA49B0018C007 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				99E8208E253BCB250018C007 /* Protocols.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -178,6 +181,7 @@
 				99551494253B56F000C8B990 /* AppDelegate.swift in Sources */,
 				99551496253B56F000C8B990 /* SceneDelegate.swift in Sources */,
 				99E82085253BA4CE0018C007 /* ContainerController.swift in Sources */,
+				99E8208F253BCB250018C007 /* Protocols.swift in Sources */,
 				99E8208B253BA4F10018C007 /* MenuController.swift in Sources */,
 				99E82088253BA4DF0018C007 /* HomeController.swift in Sources */,
 			);
