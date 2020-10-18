@@ -366,6 +366,10 @@
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="* Wash your hands often." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="J2L-7Y-Vzv">
                                 <rect key="frame" x="20" y="169" width="185" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+<<<<<<< HEAD
+=======
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+>>>>>>> f6705785d270b44c587b0c21df054f47ee75b1e9
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -436,16 +440,16 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="To navigate, click on the menu icon on the top left corner of the screen." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Qvi-Pi-Mtl">
-                                <rect key="frame" x="87" y="496" width="240" height="57"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Welcome to Mask On, your handy resource for all things related to the coronavirus!" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="hJn-rJ-Y7F">
+                                <rect key="frame" x="92" y="241" width="231" height="63"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Welcome to Mask On, your handy resource for all things related to the coronavirus!" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="hJn-rJ-Y7F">
-                                <rect key="frame" x="92" y="241" width="231" height="63"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="To navigate, click on the menu icon on the top left corner of the screen." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Qvi-Pi-Mtl">
+                                <rect key="frame" x="92" y="494" width="231" height="64"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <color key="textColor" systemColor="labelColor"/>
@@ -574,6 +578,11 @@
                     <view key="view" contentMode="scaleToFill" id="JsD-87-jU5">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+<<<<<<< HEAD
+=======
+                        <viewLayoutGuide key="safeArea" id="akb-mN-aV8"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+>>>>>>> f6705785d270b44c587b0c21df054f47ee75b1e9
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CUb-vM-O4N" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
