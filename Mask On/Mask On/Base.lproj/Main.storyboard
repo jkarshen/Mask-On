@@ -491,6 +491,7 @@
                     <view key="view" contentMode="scaleToFill" id="JsD-87-jU5">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="774"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="Auu-gc-37X"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                 </viewController>
@@ -500,9 +501,10 @@
         </scene>
     </scenes>
     <resources>
-<<<<<<< HEAD
         <image name="85396084-please-wash-your-hands-vector-illustration-icon-health-care.jpg" width="312" height="312"/>
-        <image name="Image" width="700" height="400"/>
+        <image name="Image" width="1040" height="615"/>
+        <image name="Image-1" width="700" height="400"/>
+        <image name="Image-2" width="952" height="637"/>
         <image name="download-1.png" width="200" height="200"/>
         <image name="download-2.png" width="225" height="225"/>
         <image name="download.png" width="225" height="225"/>
@@ -510,11 +512,6 @@
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
-=======
-        <image name="Image" width="1040" height="615"/>
-        <image name="Image-1" width="700" height="400"/>
-        <image name="Image-2" width="952" height="637"/>
->>>>>>> f0b61832b70f23e21513fb37ceeda3e52780ac3b
         <systemColor name="opaqueSeparatorColor">
             <color red="0.77647058823529413" green="0.77647058823529413" blue="0.78431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
