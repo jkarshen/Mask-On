@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00C90393253BED6E0071A8B9 /* 85396084-please-wash-your-hands-vector-illustration-icon-health-care.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 00C90392253BED6E0071A8B9 /* 85396084-please-wash-your-hands-vector-illustration-icon-health-care.jpg */; };
+		00C90396253BEDAB0071A8B9 /* download.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C90395253BEDAB0071A8B9 /* download.png */; };
+		00C90399253BEE330071A8B9 /* pngtree-face-mask-vector-icon-illustration-png-image_2164981.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 00C90398253BEE330071A8B9 /* pngtree-face-mask-vector-icon-illustration-png-image_2164981.jpg */; };
+		00C9039C253BEE900071A8B9 /* download-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C9039B253BEE8F0071A8B9 /* download-1.png */; };
+		00C9039F253BEECE0071A8B9 /* download-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C9039E253BEECE0071A8B9 /* download-2.png */; };
 		99551494253B56F000C8B990 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99551493253B56F000C8B990 /* AppDelegate.swift */; };
 		99551496253B56F000C8B990 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99551495253B56F000C8B990 /* SceneDelegate.swift */; };
 		9955149B253B56F000C8B990 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99551499253B56F000C8B990 /* Main.storyboard */; };
@@ -19,6 +24,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		00C90392253BED6E0071A8B9 /* 85396084-please-wash-your-hands-vector-illustration-icon-health-care.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "85396084-please-wash-your-hands-vector-illustration-icon-health-care.jpg"; path = "../../../85396084-please-wash-your-hands-vector-illustration-icon-health-care.jpg"; sourceTree = "<group>"; };
+		00C90395253BEDAB0071A8B9 /* download.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = download.png; path = ../../../download.png; sourceTree = "<group>"; };
+		00C90398253BEE330071A8B9 /* pngtree-face-mask-vector-icon-illustration-png-image_2164981.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "pngtree-face-mask-vector-icon-illustration-png-image_2164981.jpg"; path = "../../../pngtree-face-mask-vector-icon-illustration-png-image_2164981.jpg"; sourceTree = "<group>"; };
+		00C9039B253BEE8F0071A8B9 /* download-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "download-1.png"; path = "../../../download-1.png"; sourceTree = "<group>"; };
+		00C9039E253BEECE0071A8B9 /* download-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "download-2.png"; path = "../../../download-2.png"; sourceTree = "<group>"; };
 		99551490253B56F000C8B990 /* Mask On.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mask On.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		99551493253B56F000C8B990 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		99551495253B56F000C8B990 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -70,6 +80,11 @@
 				99551495253B56F000C8B990 /* SceneDelegate.swift */,
 				99551499253B56F000C8B990 /* Main.storyboard */,
 				9955149C253B56F100C8B990 /* Assets.xcassets */,
+				00C9039E253BEECE0071A8B9 /* download-2.png */,
+				00C9039B253BEE8F0071A8B9 /* download-1.png */,
+				00C90398253BEE330071A8B9 /* pngtree-face-mask-vector-icon-illustration-png-image_2164981.jpg */,
+				00C90395253BEDAB0071A8B9 /* download.png */,
+				00C90392253BED6E0071A8B9 /* 85396084-please-wash-your-hands-vector-illustration-icon-health-care.jpg */,
 				9955149E253B56F100C8B990 /* LaunchScreen.storyboard */,
 				995514A1253B56F100C8B990 /* Info.plist */,
 			);
@@ -165,9 +180,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00C9039F253BEECE0071A8B9 /* download-2.png in Resources */,
+				00C90399253BEE330071A8B9 /* pngtree-face-mask-vector-icon-illustration-png-image_2164981.jpg in Resources */,
+				00C90393253BED6E0071A8B9 /* 85396084-please-wash-your-hands-vector-illustration-icon-health-care.jpg in Resources */,
+				00C90396253BEDAB0071A8B9 /* download.png in Resources */,
 				995514A0253B56F100C8B990 /* LaunchScreen.storyboard in Resources */,
 				9955149D253B56F100C8B990 /* Assets.xcassets in Resources */,
 				9955149B253B56F000C8B990 /* Main.storyboard in Resources */,
+				00C9039C253BEE900071A8B9 /* download-1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
