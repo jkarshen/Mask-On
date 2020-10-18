@@ -1,6 +1,10 @@
 {
   "images" : [
     {
+<<<<<<< HEAD
+=======
+      "filename" : "1024x1024.png",
+>>>>>>> c8f604f5ad92d825454aed87e8c8ff63ff5658ea
       "idiom" : "universal",
       "scale" : "1x"
     },
