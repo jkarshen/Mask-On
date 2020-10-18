@@ -16,6 +16,7 @@
 		99E82088253BA4DF0018C007 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E82087253BA4DF0018C007 /* HomeController.swift */; };
 		99E8208B253BA4F10018C007 /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E8208A253BA4F10018C007 /* MenuController.swift */; };
 		99E8208F253BCB250018C007 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E8208E253BCB250018C007 /* Protocols.swift */; };
+		99E8209A253C0FA70018C007 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E82099253C0FA70018C007 /* MapViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		99E82087253BA4DF0018C007 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 		99E8208A253BA4F10018C007 /* MenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
 		99E8208E253BCB250018C007 /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
+		99E82099253C0FA70018C007 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 				9955149C253B56F100C8B990 /* Assets.xcassets */,
 				9955149E253B56F100C8B990 /* LaunchScreen.storyboard */,
 				995514A1253B56F100C8B990 /* Info.plist */,
+				99E82099253C0FA70018C007 /* MapViewController.swift */,
 			);
 			path = "Mask On";
 			sourceTree = "<group>";
@@ -184,6 +187,7 @@
 				99E8208F253BCB250018C007 /* Protocols.swift in Sources */,
 				99E8208B253BA4F10018C007 /* MenuController.swift in Sources */,
 				99E82088253BA4DF0018C007 /* HomeController.swift in Sources */,
+				99E8209A253C0FA70018C007 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

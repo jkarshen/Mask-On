@@ -32,7 +32,7 @@ class ContainerController: UIViewController {
         navigationController?.navigationBar.barTintColor = .white
         navigationController?.navigationBar.barStyle = .black
         
-        navigationItem.title = "Home"
+        navigationItem.title = "Mask On"
         navigationItem.leftBarButtonItem = UIBarButtonItem(image: #imageLiteral(resourceName: "bars").withRenderingMode(.alwaysOriginal), style: .plain, target: self, action: #selector(handleMenuToggle))
     }
     

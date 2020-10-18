@@ -346,7 +346,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zpx-1c-n7u" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="844.92753623188412" y="-723.21428571428567"/>
+            <point key="canvasLocation" x="755" y="-842"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="z5N-OU-GOh">
@@ -367,7 +367,7 @@
                                 <rect key="frame" x="20" y="169" width="185" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <color key="textColor" systemColor="labelColor"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -406,6 +406,7 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pngtree-face-mask-vector-icon-illustration-png-image_2164981" translatesAutoresizingMaskIntoConstraints="NO" id="TDg-HZ-gMF">
                                 <rect key="frame" x="224" y="364" width="161" height="147"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="download-2" translatesAutoresizingMaskIntoConstraints="NO" id="GwP-Ax-dzL">
                                 <rect key="frame" x="205" y="637" width="180" height="135"/>
@@ -528,13 +529,19 @@
             </objects>
             <point key="canvasLocation" x="-646.37681159420299" y="833.70535714285711"/>
         </scene>
-        <!--View Controller-->
+        <!--Map View Controller-->
         <scene sceneID="qHY-1Q-aSd">
             <objects>
-                <viewController id="Lv1-VI-IBV" sceneMemberID="viewController">
+                <viewController id="Lv1-VI-IBV" customClass="MapViewController" customModule="Mask_On" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="aU9-zf-TtS">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="VNo-c4-kIb">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </mapView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="RPy-R8-aS5"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
@@ -542,7 +549,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RU5-Mf-b9T" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="845" y="133"/>
+            <point key="canvasLocation" x="984" y="92"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Uqh-el-B6A">
@@ -569,15 +576,7 @@
                     <view key="view" contentMode="scaleToFill" id="JsD-87-jU5">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="774"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-<<<<<<< HEAD
                         <viewLayoutGuide key="safeArea" id="akb-mN-aV8"/>
-=======
-<<<<<<< HEAD
-                        <viewLayoutGuide key="safeArea" id="fyj-T7-AXm"/>
-=======
-                        <viewLayoutGuide key="safeArea" id="Uec-sy-JCC"/>
->>>>>>> bdd4a65b2ba743e28ee92ae9974ee2a68cc18375
->>>>>>> bd02e86b92e83662f79b5e1916b99c196a28501c
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                 </viewController>
@@ -587,35 +586,15 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-<<<<<<< HEAD
-        <segue reference="mSs-1o-LtI"/>
-    </inferredMetricsTieBreakers>
-    <resources>
-        <image name="85396084-please-wash-your-hands-vector-illustration-icon-health-care.jpg" width="312" height="312"/>
-=======
         <segue reference="Y4B-Fi-lPJ"/>
     </inferredMetricsTieBreakers>
     <resources>
-<<<<<<< HEAD
         <image name="85396084-please-wash-your-hands-vector-illustration-icon-health-care" width="1300" height="1300"/>
-=======
-        <image name="85396084-please-wash-your-hands-vector-illustration-icon-health-care.jpg" width="128" height="128"/>
->>>>>>> bdd4a65b2ba743e28ee92ae9974ee2a68cc18375
->>>>>>> bd02e86b92e83662f79b5e1916b99c196a28501c
         <image name="Image" width="1040" height="615"/>
         <image name="Image-1" width="700" height="400"/>
         <image name="Image-2" width="952" height="637"/>
         <image name="Image-3" width="2048" height="1365"/>
         <image name="Image-4" width="700" height="450"/>
-<<<<<<< HEAD
-        <image name="download-1.png" width="200" height="200"/>
-        <image name="download-2.png" width="225" height="225"/>
-        <image name="download.png" width="225" height="225"/>
-        <image name="lightbulb.fill" catalog="system" width="113" height="128"/>
-        <image name="mappin.and.ellipse" catalog="system" width="118" height="128"/>
-        <image name="person.fill.questionmark" catalog="system" width="128" height="104"/>
-        <image name="pngtree-face-mask-vector-icon-illustration-png-image_2164981.jpg" width="640" height="640"/>
-=======
         <image name="Image-5" width="300" height="300"/>
         <image name="download" width="225" height="225"/>
         <image name="download-1" width="200" height="200"/>
@@ -624,7 +603,6 @@
         <image name="mappin.and.ellipse" catalog="system" width="118" height="128"/>
         <image name="person.fill.questionmark" catalog="system" width="128" height="104"/>
         <image name="pngtree-face-mask-vector-icon-illustration-png-image_2164981" width="640" height="640"/>
->>>>>>> bd02e86b92e83662f79b5e1916b99c196a28501c
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
