@@ -134,6 +134,17 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="AaG-xS-KC4">
+                                <rect key="frame" x="87" y="495" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MON-En-qel">
+                                <rect key="frame" x="32" y="193" width="351" height="211"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="A4c-3y-d91"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -614,6 +625,7 @@
         <segue reference="TZn-9i-Axa"/>
     </inferredMetricsTieBreakers>
     <resources>
+<<<<<<< HEAD
         <image name="85396084-please-wash-your-hands-vector-illustration-icon-health-care.jpg" width="312" height="312"/>
         <image name="Image" width="1040" height="615"/>
         <image name="Image-1" width="700" height="400"/>
@@ -628,6 +640,9 @@
 <<<<<<< HEAD
 =======
 =======
+=======
+        <image name="85396084-please-wash-your-hands-vector-illustration-icon-health-care.jpg" width="128" height="128"/>
+>>>>>>> 35e98fd86b861f91dddaf15cc671b412d247e1ba
         <image name="Image" width="1040" height="615"/>
         <image name="Image-1" width="700" height="400"/>
 <<<<<<< HEAD
@@ -636,9 +651,17 @@
         <image name="person.fill.questionmark" catalog="system" width="128" height="104"/>
 =======
         <image name="Image-2" width="952" height="637"/>
-<<<<<<< HEAD
         <image name="Image-3" width="2048" height="1365"/>
         <image name="Image-4" width="700" height="450"/>
+<<<<<<< HEAD
+        <image name="download-1.png" width="128" height="128"/>
+        <image name="download-2.png" width="128" height="128"/>
+        <image name="download.png" width="128" height="128"/>
+        <image name="pngtree-face-mask-vector-icon-illustration-png-image_2164981.jpg" width="128" height="128"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+=======
 =======
 >>>>>>> f0b61832b70f23e21513fb37ceeda3e52780ac3b
 >>>>>>> faef5ee192aa94dc373e1d1ca0b7e5e95a35338c
