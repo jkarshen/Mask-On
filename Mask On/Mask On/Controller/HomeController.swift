@@ -16,10 +16,10 @@ class HomeController: UIViewController {
     // MARK: -Init
     
     override func viewDidLoad() {
+        print("loaded")
         super.viewDidLoad()
         
         view.backgroundColor = .white
-        configureNavigationBar()
     }
     
     // MARK: - Handlers
@@ -28,11 +28,4 @@ class HomeController: UIViewController {
         delegate?.handleMenuToggle()
     }
     
-    func configureNavigationBar() {
-        navigationController?.navigationBar.barTintColor = .white
-        navigationController?.navigationBar.barStyle = .black
-        
-        navigationItem.title = "Home"
-        navigationItem.leftBarButtonItem = UIBarButtonItem(image: #imageLiteral(resourceName: "bars").withRenderingMode(.alwaysOriginal), style: .plain, target: self, action: #selector(handleMenuToggle))
-    }
 }
