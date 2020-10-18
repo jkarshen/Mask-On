@@ -23,18 +23,18 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rfI-wg-3XR">
-                                <rect key="frame" x="32" y="173" width="351" height="211"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">The average body temperature can have a wide range, from 97°F to 99°F. Any temperature above 100.4°F most often means you have a fever. </string>
-                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image-1" translatesAutoresizingMaskIntoConstraints="NO" id="E43-nJ-Eks">
                                 <rect key="frame" x="20" y="392" width="374" height="274"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rfI-wg-3XR">
+                                <rect key="frame" x="32" y="173" width="351" height="211"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">The average body temperature can have a wide range, from 97°F to 99°F. Any temperature above 100.4°F most often means you have a fever. </string>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="PSY-dc-Ggt"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -60,18 +60,18 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="guj-Xg-tfg">
+                                <rect key="frame" x="37" y="411" width="340" height="208"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="25X-lR-ako">
                                 <rect key="frame" x="32" y="149" width="351" height="211"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">A dry cough has a very consistent sound, often triggered by a tickle in the back of your throat. Basically, a dry cough is one where no mucus or phlegm is produced. </string>
-                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
-                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="guj-Xg-tfg">
-                                <rect key="frame" x="37" y="395" width="340" height="208"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vjl-aj-8eR"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -97,18 +97,18 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QPD-Lc-o5L">
-                                <rect key="frame" x="26" y="186" width="363" height="211"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">Fatigue is one of the most common symptoms among people who were hospitalized with COVID-19 (70%). Usually, patients feel more extreme fatigue than normal. </string>
-                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image-2" translatesAutoresizingMaskIntoConstraints="NO" id="ERU-O6-6f2">
                                 <rect key="frame" x="10" y="405" width="395" height="241"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QPD-Lc-o5L">
+                                <rect key="frame" x="26" y="150" width="363" height="211"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Fatigue is one of the most common symptoms among people who were hospitalized with COVID-19 (70%). Usually, patients feel more extreme fatigue than normal. </string>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="BRY-ye-C9J"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -159,6 +159,17 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image-4" translatesAutoresizingMaskIntoConstraints="NO" id="fPq-i9-kbM">
+                                <rect key="frame" x="32" y="408" width="351" height="257"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Your chest may begine to feel some pressure or even a sharp pain. This symptom can occur on its own without a cough. " lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cDj-Uq-PKY">
+                                <rect key="frame" x="32" y="177" width="351" height="211"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Vsg-li-Ce9"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -167,7 +178,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iOY-WU-ObB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2821" y="-373"/>
+            <point key="canvasLocation" x="2820.289855072464" y="-373.66071428571428"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="d6S-c2-MEp">
@@ -184,13 +195,18 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zon-5s-oaa">
-                                <rect key="frame" x="32" y="189" width="351" height="211"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zon-5s-oaa">
+                                <rect key="frame" x="32" y="187" width="351" height="211"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
-                                <nil key="textColor"/>
+                                <string key="text">Shortness of breath can make you hard to breathe and leave you gasping for air. This symptom usually sets in between day 4 and 10 of the disease course. However, some may not develop this symptom at all. </string>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image-3" translatesAutoresizingMaskIntoConstraints="NO" id="PL2-aZ-HUK">
+                                <rect key="frame" x="20" y="406" width="374" height="281"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="hWI-hg-cQt"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -199,14 +215,14 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="c7c-4q-EeB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3530" y="-674"/>
+            <point key="canvasLocation" x="3528.985507246377" y="-674.33035714285711"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="vlV-Gt-oKM">
             <objects>
                 <viewController id="F8Z-pW-5Wg" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="yu2-1Y-V6y">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Self-Check" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wcT-5q-ur7">
@@ -325,7 +341,7 @@
             <objects>
                 <viewController id="3du-f4-Py2" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="J0H-HZ-gYe">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tips" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rwo-8K-e2C">
@@ -403,7 +419,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZkY-in-Tbq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="844.92753623188412" y="91.741071428571431"/>
+            <point key="canvasLocation" x="845" y="834"/>
         </scene>
         <!--Container Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -442,13 +458,99 @@
                     <view key="view" contentMode="scaleToFill" id="khk-Fx-t6o">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XuW-B2-Zmv">
+                                <rect key="frame" x="224" y="127" width="132" height="46"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                <state key="normal" title="Self Check">
+                                    <color key="titleColor" systemColor="systemTealColor"/>
+                                </state>
+                                <connections>
+                                    <segue destination="F8Z-pW-5Wg" kind="show" id="WQC-nN-q2m"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CZT-RD-M9Z">
+                                <rect key="frame" x="188" y="457" width="76" height="48"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="VBt-Kb-jgf"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                <state key="normal" title="Tips">
+                                    <color key="titleColor" systemColor="systemYellowColor"/>
+                                </state>
+                                <connections>
+                                    <segue destination="3du-f4-Py2" kind="show" id="akx-lZ-Lq9"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="749" misplaced="YES" image="person.fill.questionmark" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="K0a-aR-WVW">
+                                <rect key="frame" x="173" y="138.5" width="22" height="22"/>
+                                <color key="tintColor" systemColor="systemTealColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="24" id="CuE-OI-2Ld"/>
+                                    <constraint firstAttribute="height" constant="24" id="MoW-oe-xKU"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="24" id="zxc-Kr-48G"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="mappin.and.ellipse" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="GCu-TM-cIC">
+                                <rect key="frame" x="171" y="260.5" width="24" height="24.5"/>
+                                <color key="tintColor" systemColor="systemGreenColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="24" id="Qd7-RT-jzJ"/>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="24" id="RF1-DQ-QRW"/>
+                                    <constraint firstAttribute="width" constant="24" id="ZIq-ac-xWY"/>
+                                    <constraint firstAttribute="height" constant="24" id="qut-tr-gIQ"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="lightbulb.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="DXl-ic-0Q8">
+                                <rect key="frame" x="171" y="359.5" width="24" height="25.5"/>
+                                <color key="tintColor" systemColor="systemYellowColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="24" id="TY7-4n-tkd"/>
+                                    <constraint firstAttribute="height" constant="24" id="fMh-ju-M8t"/>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="24" id="hl1-gX-r7Z"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ium-o2-PeW">
+                                <rect key="frame" x="243" y="226" width="74" height="94"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                <state key="normal" title="Map">
+                                    <color key="titleColor" systemColor="systemGreenColor"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Lv1-VI-IBV" kind="show" id="TZn-9i-Axa"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="OYH-xn-G28"/>
-                        <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                        <color key="backgroundColor" systemColor="systemGrayColor"/>
+                        <constraints>
+                            <constraint firstItem="OYH-xn-G28" firstAttribute="trailing" secondItem="CZT-RD-M9Z" secondAttribute="trailing" constant="150" id="00T-Za-J0A"/>
+                            <constraint firstItem="GCu-TM-cIC" firstAttribute="leading" secondItem="K0a-aR-WVW" secondAttribute="leading" id="1uC-BR-oQq"/>
+                            <constraint firstItem="CZT-RD-M9Z" firstAttribute="leading" secondItem="OYH-xn-G28" secondAttribute="leading" constant="188" id="2ft-6o-72D"/>
+                            <constraint firstItem="OYH-xn-G28" firstAttribute="trailing" secondItem="XuW-B2-Zmv" secondAttribute="trailing" constant="101" id="6vT-Y2-21W"/>
+                            <constraint firstItem="K0a-aR-WVW" firstAttribute="leading" secondItem="OYH-xn-G28" secondAttribute="leading" constant="129" id="8Ca-YU-1se"/>
+                            <constraint firstItem="GCu-TM-cIC" firstAttribute="top" secondItem="K0a-aR-WVW" secondAttribute="bottom" constant="70" id="FCP-uR-AuN"/>
+                            <constraint firstItem="XuW-B2-Zmv" firstAttribute="leading" secondItem="K0a-aR-WVW" secondAttribute="trailing" constant="30" id="GI8-gL-kdh"/>
+                            <constraint firstItem="XuW-B2-Zmv" firstAttribute="leading" secondItem="K0a-aR-WVW" secondAttribute="trailing" constant="30" id="K8I-gD-VUp"/>
+                            <constraint firstItem="GCu-TM-cIC" firstAttribute="leading" secondItem="DXl-ic-0Q8" secondAttribute="leading" id="LZd-Xr-AiM"/>
+                            <constraint firstItem="OYH-xn-G28" firstAttribute="bottom" secondItem="CZT-RD-M9Z" secondAttribute="bottom" constant="357" id="ODE-7J-y1L"/>
+                            <constraint firstItem="ium-o2-PeW" firstAttribute="leading" secondItem="GCu-TM-cIC" secondAttribute="trailing" constant="30" id="TcK-6S-dEk"/>
+                            <constraint firstItem="GCu-TM-cIC" firstAttribute="centerY" secondItem="ium-o2-PeW" secondAttribute="centerY" id="W6H-8a-Y2f"/>
+                            <constraint firstItem="DXl-ic-0Q8" firstAttribute="top" secondItem="GCu-TM-cIC" secondAttribute="bottom" constant="77.5" id="Wo8-FX-xmf"/>
+                            <constraint firstItem="XuW-B2-Zmv" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="K0a-aR-WVW" secondAttribute="trailing" constant="8" symbolic="YES" id="Zvh-L7-2ZQ"/>
+                            <constraint firstItem="K0a-aR-WVW" firstAttribute="bottom" secondItem="XuW-B2-Zmv" secondAttribute="bottom" id="jlQ-x8-oa5"/>
+                            <constraint firstItem="K0a-aR-WVW" firstAttribute="top" secondItem="OYH-xn-G28" secondAttribute="top" constant="182" id="kUo-vQ-0I1"/>
+                            <constraint firstItem="ium-o2-PeW" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="GCu-TM-cIC" secondAttribute="trailing" constant="8" symbolic="YES" id="oYD-GX-O0h"/>
+                            <constraint firstItem="CZT-RD-M9Z" firstAttribute="top" secondItem="ium-o2-PeW" secondAttribute="bottom" constant="78" id="pWF-8v-ib3"/>
+                            <constraint firstItem="OYH-xn-G28" firstAttribute="trailing" secondItem="ium-o2-PeW" secondAttribute="trailing" constant="157" id="rkp-58-Jjl"/>
+                            <constraint firstItem="ium-o2-PeW" firstAttribute="leading" secondItem="GCu-TM-cIC" secondAttribute="trailing" constant="30" id="vGu-e3-2il"/>
+                            <constraint firstItem="XuW-B2-Zmv" firstAttribute="leading" secondItem="K0a-aR-WVW" secondAttribute="trailing" constant="30" id="vxg-Xg-mWh"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pjn-wS-c3w" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-646" y="834"/>
+            <point key="canvasLocation" x="-646.37681159420299" y="833.70535714285711"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="qHY-1Q-aSd">
@@ -464,7 +566,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RU5-Mf-b9T" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="845" y="870"/>
+            <point key="canvasLocation" x="845" y="133"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Uqh-el-B6A">
@@ -491,7 +593,15 @@
                     <view key="view" contentMode="scaleToFill" id="JsD-87-jU5">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="774"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+<<<<<<< HEAD
                         <viewLayoutGuide key="safeArea" id="Auu-gc-37X"/>
+=======
+<<<<<<< HEAD
+                        <viewLayoutGuide key="safeArea" id="J98-U1-Du5"/>
+=======
+                        <viewLayoutGuide key="safeArea" id="PL4-tx-9QE"/>
+>>>>>>> ee22b42902ce22a1af0a0af50a9b1b2bd641f1dc
+>>>>>>> c09a76c975e31f6b36f783bf7f6462590537eaed
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                 </viewController>
@@ -500,6 +610,9 @@
             <point key="canvasLocation" x="122" y="92"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="TZn-9i-Axa"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <image name="85396084-please-wash-your-hands-vector-illustration-icon-health-care.jpg" width="312" height="312"/>
         <image name="Image" width="1040" height="615"/>
@@ -512,6 +625,25 @@
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
+<<<<<<< HEAD
+=======
+=======
+        <image name="Image" width="1040" height="615"/>
+        <image name="Image-1" width="700" height="400"/>
+<<<<<<< HEAD
+        <image name="lightbulb.fill" catalog="system" width="113" height="128"/>
+        <image name="mappin.and.ellipse" catalog="system" width="118" height="128"/>
+        <image name="person.fill.questionmark" catalog="system" width="128" height="104"/>
+=======
+        <image name="Image-2" width="952" height="637"/>
+<<<<<<< HEAD
+        <image name="Image-3" width="2048" height="1365"/>
+        <image name="Image-4" width="700" height="450"/>
+=======
+>>>>>>> f0b61832b70f23e21513fb37ceeda3e52780ac3b
+>>>>>>> faef5ee192aa94dc373e1d1ca0b7e5e95a35338c
+>>>>>>> ee22b42902ce22a1af0a0af50a9b1b2bd641f1dc
+>>>>>>> c09a76c975e31f6b36f783bf7f6462590537eaed
         <systemColor name="opaqueSeparatorColor">
             <color red="0.77647058823529413" green="0.77647058823529413" blue="0.78431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
@@ -521,8 +653,14 @@
         <systemColor name="systemGrayColor">
             <color red="0.55686274509803924" green="0.55686274509803924" blue="0.57647058823529407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
-        <systemColor name="systemOrangeColor">
-            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemTealColor">
+            <color red="0.35294117647058826" green="0.78431372549019607" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

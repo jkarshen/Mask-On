@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ContainerController: UIViewController{
+class ContainerController: UIViewController {
     // MARK: Properties
     
     var menuController: UIViewController!
@@ -37,10 +37,19 @@ class ContainerController: UIViewController{
     }
     
     func configureMenuController() {
+        if menuController == nil {
+            // add menu controller
+            menuController = MenuController()
+            view.insertSubview(menuController.view, at: 0)
+            addChild(menuController)
+            menuController.didMove(toParent: self)
+        }
+        
         menuController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "MenuController") as! MenuController
         menuController.view.frame.origin.x = -menuController.view.frame.width
         view.insertSubview(menuController.view, aboveSubview: self.view)
         addChild(menuController)
+
     }
     
     func showMenuController(shouldExpand: Bool) {
