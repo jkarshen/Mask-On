@@ -605,7 +605,19 @@
                     <view key="view" contentMode="scaleToFill" id="JsD-87-jU5">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="774"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+<<<<<<< HEAD
                         <viewLayoutGuide key="safeArea" id="2L5-03-Ydp"/>
+=======
+<<<<<<< HEAD
+                        <viewLayoutGuide key="safeArea" id="Auu-gc-37X"/>
+=======
+<<<<<<< HEAD
+                        <viewLayoutGuide key="safeArea" id="J98-U1-Du5"/>
+=======
+                        <viewLayoutGuide key="safeArea" id="PL4-tx-9QE"/>
+>>>>>>> ee22b42902ce22a1af0a0af50a9b1b2bd641f1dc
+>>>>>>> c09a76c975e31f6b36f783bf7f6462590537eaed
+>>>>>>> 783f7c532705683f2b7e4062484010a586a5e50f
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                 </viewController>
@@ -618,7 +630,24 @@
         <segue reference="TZn-9i-Axa"/>
     </inferredMetricsTieBreakers>
     <resources>
+<<<<<<< HEAD
+        <image name="85396084-please-wash-your-hands-vector-illustration-icon-health-care.jpg" width="312" height="312"/>
+        <image name="Image" width="1040" height="615"/>
+        <image name="Image-1" width="700" height="400"/>
+        <image name="Image-2" width="952" height="637"/>
+        <image name="download-1.png" width="200" height="200"/>
+        <image name="download-2.png" width="225" height="225"/>
+        <image name="download.png" width="225" height="225"/>
+        <image name="pngtree-face-mask-vector-icon-illustration-png-image_2164981.jpg" width="640" height="640"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+<<<<<<< HEAD
+=======
+=======
+=======
         <image name="85396084-please-wash-your-hands-vector-illustration-icon-health-care.jpg" width="128" height="128"/>
+>>>>>>> 35e98fd86b861f91dddaf15cc671b412d247e1ba
         <image name="Image" width="1040" height="615"/>
         <image name="Image-1" width="700" height="400"/>
         <image name="Image-2" width="952" height="637"/>
